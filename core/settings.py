@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'blog_api',
     'api',
     'helloapi',
+    'products',
     'rest_framework',
 ]
 

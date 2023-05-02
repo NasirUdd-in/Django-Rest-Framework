@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.urls import path, include
 from api import views
 from helloapi import views
-
+from products import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -13,5 +13,5 @@ urlpatterns = [
     # path('stuinfo/', views.student_list),
 
     # path('stucreate/', views.student_create),
-    path('studentapi/', views.student_api)
+    path('productapi/', views.product_api)
 ]
